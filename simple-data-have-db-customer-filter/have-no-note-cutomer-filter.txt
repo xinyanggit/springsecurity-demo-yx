@@ -1,0 +1,4 @@
+注意配置权限的时候，
+1.role 会自动添加前缀的 ROLE_
+2.数据库存储需要存储加密的密文。
+http://www.spring4all.com/article/420

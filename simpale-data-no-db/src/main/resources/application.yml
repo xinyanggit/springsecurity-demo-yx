@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  thymeleaf:
+    cache: false
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/jsp
+#      suffix: .jsp
+## \u7528\u5230\u7684\u4E86thymeleaf \u6846\u67B6\uFF0C \u7ADF\u7136\u76F4\u63A5\u662F\u4E0D\u7528\u914D\u7F6E\uFF0C\u76F4\u63A5\u751F\u6548\u7684

@@ -1,0 +1,9 @@
+1.QQAuthenticationFilter 继承 AbstractAuthenticationProcessingFilter
+类似UsernamePasswordAuthenticationFilter
+2.
+由于 QQAuthenticationFilter 继承了 AbstractAuthenticationProcessingFilter，
+所以过滤时使用的是父类的doFilter() 方法
+ attemptAuthentication 方法中 this.getAuthenticationManager().authenticate(authRequest);
+3.由于腾讯的回调地址是 /login/qq，
+所以 QQAuthenticationFilter 拦截的路径是 /login/qq，
+然后将 QQAuthenticationFilter 置于 UsernamePasswordAuthenticationFilter 相同级别的位置。

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="simple-data-have-db-customer-filter" />
+        <module name="simple-data-have-db" />
+        <module name="simple-data-have-db-qq" />
+        <module name="simpale-data-no-db" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="simpale-data-no-db" target="1.7" />
+      <module name="simple-data-have-db" target="1.7" />
+      <module name="simple-data-have-db-customer-filter" target="1.7" />
+      <module name="simple-data-have-db-qq" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="simpale-data-no-db" options="-parameters" />
+      <module name="simple-data-have-db" options="-parameters" />
+      <module name="simple-data-have-db-customer-filter" options="-parameters" />
+      <module name="simple-data-have-db-qq" options="-parameters" />
+    </option>
+  </component>
+</project>

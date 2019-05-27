@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: yx_demo
+    password: yx_demo@yx
+    url: jdbc:mysql://118.24.110.110:3306/yx_demo?useUnicode=true&useSSL=true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+  thymeleaf:
+    cache: false
